@@ -1,0 +1,6 @@
+Debido a que la columna primaria no se pidia repetir agregue otro primary key incremenable 
+para evitar errores en la subida de los datos
+
+si se quisiera evitar repeticiones se usaria:
+INSERT OR IGNORE => dejando el primer dato introducido
+INSERT OR REPLACE => dejando el ultimo dato introducido
